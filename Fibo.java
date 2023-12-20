@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author wilme
+ * @author wilmer Ruiz
  */
 public class Fibo {
    
