@@ -1,9 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package Recursividad;
 
+package Recursividad;
+import javax.swing.JOptionPane;
 import java.util.Scanner;
 
 /**
@@ -13,7 +10,10 @@ import java.util.Scanner;
 public class Fibo {
    
 public static void main(String[] args) {
-        Fibonacci(72000, 0, 1);
+       int n;    
+       n = Integer.parseInt(JOptionPane.showInputDialog("digite un valor "));
+
+        Fibonacci(n, 0, 1);
     }
 
     public static void Fibonacci(int n, int nA, int nS) {
