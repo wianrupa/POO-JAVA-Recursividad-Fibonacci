@@ -10,9 +10,10 @@ import java.util.Scanner;
 public class Fibo {
    
 public static void main(String[] args) {
-       int n;    
-       n = Integer.parseInt(JOptionPane.showInputDialog("digite un valor "));
-
+       int n;
+     do {
+            n = Integer.parseInt(JOptionPane.showInputDialog("digite un nùmero entero  "));
+        } while (n < 1);
         Fibonacci(n, 0, 1);
     }
 
